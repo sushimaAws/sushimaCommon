@@ -6,7 +6,6 @@ customConfigFiles:
 controlplane:
   accountID: "038214416147"
   addonsVersion: v1.22/20220607
-  clusterAdminARN: arn:aws:iam::038214416147:role/Admin
   clusterID: f9682f91-d09d-4b76-aefa-ad0237cc6124
   etcd:
     amiID: ami-0f111f916256b844f
