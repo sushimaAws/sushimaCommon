@@ -1,4 +1,3 @@
-clusterName: task-m6a
 customConfigFiles:
   addonsFilePath: ""
   clusterTemplateFilePath: ""
