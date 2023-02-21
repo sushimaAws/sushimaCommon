@@ -1,0 +1,31 @@
+clusterName: task-m6a
+customConfigFiles:
+  addonsFilePath: ""
+  clusterTemplateFilePath: ""
+  manifestFilePath: ""
+  ssmDocFilePath: ""
+controlplane:
+  accountID: "038214416147"
+  addonsVersion: v1.22/20220607
+  clusterAdminARN: arn:aws:iam::038214416147:role/Admin
+  clusterID: f9682f91-d09d-4b76-aefa-ad0237cc6124
+  etcd:
+    amiID: ami-0f111f916256b844f
+    instanceType:
+    - m6a.large
+  kubernetesVersion: "1.22"
+  manifestID: d16950c7692e31cddecadda32f6f2140576cdde724e318d7b4bdad1ae0034306
+  master:
+    amiID: ami-0a6ee616ce968d560
+    assumableRoles: null
+    instanceType:
+    - m6a.large
+  partition: aws
+  region: us-west-2
+  subnetAZs:
+  - us-west-2a
+  - us-west-2b
+  - us-west-2c
+dataplane:
+  amiID: ""
+  instanceCount: 2
