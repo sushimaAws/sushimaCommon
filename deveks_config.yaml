@@ -4,9 +4,7 @@ customConfigFiles:
   manifestFilePath: ""
   ssmDocFilePath: ""
 controlplane:
-  accountID: "038214416147"
   addonsVersion: v1.22/20220607
-  clusterID: f9682f91-d09d-4b76-aefa-ad0237cc6124
   etcd:
     amiID: ami-0f111f916256b844f
     instanceType:
